@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #FFFFFF;
+}
+
+nav {
+    width: 100%;
+    display: grid;
+    grid-template-columns: .7fr .8fr .2fr;
+    padding: 20px 25px 20px 40px;
+    align-items: center;
+}
+
+.navbar-nav {
+    justify-self: center;
+}
+
+.navbar-nav>.nav-item {
+    float: left;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 0 20px;
+    font-weight: 600;
+    letter-spacing: .04em;
+}
+
+.nav-item[aria-current]:after {
+    content: "\25CF";
+    display: block;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-item>.nav-link {
+    color: rgba(43, 42, 42, 0.8);
+}
+
+.nav-item:hover:after {
+    content: "\25CF";
+    display: block;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-item::after {
+    content: "\25CF";
+    opacity: 0;
+    color: #EB392E;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5px;
+    height: 5px;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link:visited {
+    color: rgba(43, 42, 42, 0.8);
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    color: white;
+    max-width: 120px;
+    height: 56px;
+    padding: 20px;
+    background: #EB392E;
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: center
+}
+
+.img-responsive {
+    width: auto;
+    height: 3em;
+}
+
+@media (max-width:780px) 
+{}
+
+
+    nav {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding: 20px;
+        align-items: center;
+    }
+
+
+
+
+.image {
+
+        /* Plot 411, Musa Aliro close, Maitama, Abuja. */
+
+position: absolute;
+width: 314px;
+height: 66px;
+left: 156px;
+top: 600px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 128.69%;
+/* or 33px */
+
+color: #393939;
+
+/* Place Marker */
+
+position: absolute;
+width: 62px;
+height: 62px;
+left: 77px;
+top: 602px;
+
+background: url(.png);
+
+
+
+/* Phone */
+
+position: absolute;
+width: 62px;
+height: 62px;
+left: 83px;
+top: 705px;
+
+background: url(.png);
+
+/* Secured Letter */
+
+position: absolute;
+width: 62px;
+height: 62px;
+left: 83px;
+top: 810px;
+
+background: url(.png);
+}
+
+h2 {
+
+    /* Line 2 */
+
+position: absolute;
+width: 70px;
+height: 0px;
+left: 663px;
+top: 504px;
+
+border: 7px solid #EB392E;
+
+}
+
+.container {
+
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 10%;
+}
+    .page-header {
+
+        width: 100%;
+    height: 259px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+    background-image: url(../images/01-HomePage/001-headerImage/headerImage-02.jpg);
+    box-shadow:inset 0 0 0 2000px  rgba(0, 0, 0, 0.6);
+    }
+
+
+    h2 
+    {
+
+        color: white;
+        font-family: 'PT Serif', serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 72px
+
+    }
+
+    .page-header-overlay {
+
+        display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: inherit;
+    height: inherit;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    }
+
